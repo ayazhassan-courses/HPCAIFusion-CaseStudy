@@ -1,0 +1,14 @@
+alpha: 0.1
+hidden_dim: 64
+n_hidden: 6
+lr: 0.001
+max_epochs: 10000
+N_pde: 10000
+N_ic: 1000
+N_bc: 1000
+w_pde: 1.0
+w_ic: 1.0
+w_bc: 1.0
+log_interval: 500
+model_out_path: "../data/pinn_outputs/pinn_heat2d.pt"
+device: "cuda"
